@@ -10,7 +10,8 @@ with open('hackathon.csv', 'rt', encoding='utf8') as csvfile:
        xx = "".join(row)
        record = xx.split('|')
        data.append(record)
-       print(i)
+       if(i%1000 == 0):
+           print(i)
        i+=1
 
 labels = data.pop(0)

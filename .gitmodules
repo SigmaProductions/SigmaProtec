@@ -1,0 +1,3 @@
+[submodule "GDADetection"]
+	path = GDADetection
+	url = https://github.com/exp0se/dga_detector.git
